@@ -33,25 +33,17 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
 
 {% include base_path %}
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<ul class="publication-list">
+{% for post in site.publications reversed %}
+<li>
+<p><strong><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></strong><br />
+Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.excerpt %}<br />
+{{ post.excerpt }}{% endif %}{% if post.citation %}<br />
+Recommended citation: {{ post.citation }}{% endif %}{% if post.paperurl %}<br />
+<a href="{{ post.paperurl }}">Download Paper</a>{% endif %}</p>
+</li>
+{% endfor %}
+</ul>
 
 Profiles
 ======
