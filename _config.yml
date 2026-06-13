@@ -25,12 +25,12 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Haotian Bian"
-  pronouns         : # example: "she/her"  
+  pronouns         : "He/his"  
   bio              : "Ph.D. Student in Psychology"
   location         : "Beijing, China"
   employer         : "Beijing Normal University"
-  uri              : "https://psyhtbian.github.io"
-  email            : "htbian@mail.bnu.edu.cn"
+  uri              : "Homepage: https://psyhtbian.github.io"
+  email            : "Email: htbian@mail.bnu.edu.cn"
 
   # Academic websites
   academia         : # URL
