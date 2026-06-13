@@ -9,7 +9,6 @@ redirect_from:
 
 I am a Ph.D. student in the Collaborative Innovation Center of Assessment for Basic Education Quality at Beijing Normal University.
 
-My current research focuses on parenting, family dynamics and adolescent mental health.
 
 Research Interests
 ======
