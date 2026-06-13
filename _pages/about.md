@@ -37,10 +37,8 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
 {% for post in site.publications reversed %}
 <li>
 <p><strong><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></strong><br />
-Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.excerpt %}<br />
-{{ post.excerpt }}{% endif %}{% if post.citation %}<br />
-Recommended citation: {{ post.citation }}{% endif %}{% if post.paperurl %}<br />
-<a href="{{ post.paperurl }}">Download Paper</a>{% endif %}</p>
+Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.citation %}<br />
+Recommended citation: {{ post.citation }}{% endif %}</p>
 </li>
 {% endfor %}
 </ul>
