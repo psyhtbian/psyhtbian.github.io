@@ -36,7 +36,7 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
 <ul class="publication-list">
 {% for post in site.publications reversed %}
 <li>
-<p><strong><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></strong><br />
+<p><strong>{{ post.title }}</strong><br />
 Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.citation %}<br />
 Recommended citation: {{ post.citation }}{% endif %}</p>
 </li>
