@@ -1,13 +1,20 @@
 ---
 ---
 
+{% assign home_url = site.url | append: site.baseurl | append: "/" %}
+
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 | default: 'en' }}">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title | default: "Page Not Found" }}</title>
+    <title>{{ page.title | default: "Redirecting" }}</title>
     <meta name="robots" content="{{ page.robots | default: 'noindex, nofollow' }}">
+    <link rel="canonical" href="{{ home_url }}">
+    <meta http-equiv="refresh" content="0; url={{ home_url }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      window.location.replace("{{ home_url }}");
+    </script>
     <style>
       :root {
         color-scheme: light dark;
