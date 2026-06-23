@@ -10,19 +10,19 @@ redirect_from:
 I am a Ph.D. student in the Collaborative Innovation Center of Assessment for Basic Education Quality at Beijing Normal University.
 
 
-Research Interests
-======
-
-* Parenting and family dynamics
-* Adolescent mental health
-* Longitudinal method
-
 Education
 ======
 
 * Ph.D. Student, Collaborative Innovation Center of Assessment for Basic Education Quality, Beijing Normal University, 2025-2028
 * M.A., Collaborative Innovation Center of Assessment for Basic Education Quality, Beijing Normal University, 2021-2024
 * B.S., Department of Psychology, Northwest Normal University, 2017-2021
+
+Research Interests
+======
+
+* Parenting and family dynamics
+* Adolescent mental health
+* Longitudinal method
 
 Publications
 ======
@@ -34,7 +34,8 @@ Publications
 <li>
 <p>{% if post.paperurl %}<a class="publication-title-link" href="{{ post.paperurl | prepend: base_path }}"><strong>{{ post.title }}</strong></a>{% else %}<strong>{{ post.title }}</strong>{% endif %}<br />
 Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.citation %}<br />
-Recommended citation: {{ post.citation }}{% endif %}</p>
+Recommended citation: {{ post.citation }}{% endif %}{% if post.citation_chinese %}<br />
+Recommended citation in Chinese: {{ post.citation_chinese }}{% endif %}</p>
 </li>
 {% endfor %}
 </ul>
