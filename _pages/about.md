@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Haotian Bian"
+title: "Haotian Bian (边昊天)"
 author_profile: true
 redirect_from:
   - /about/
