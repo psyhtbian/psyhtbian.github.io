@@ -9,4 +9,11 @@ sitemap: false
     <loc>{{ site.url | append: site.baseurl }}/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
   </url>
+{% assign publication_pdfs = site.static_files | where_exp: "file", "file.path contains '/assets/pdfs/publications/'" | sort: "path" %}
+{% for file in publication_pdfs %}
+  <url>
+    <loc>{{ site.url | append: site.baseurl }}{{ file.path }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  </url>
+{% endfor %}
 </urlset>
