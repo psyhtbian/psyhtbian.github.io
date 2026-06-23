@@ -40,3 +40,11 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+.publication-list .publication-title-link,
+.publication-list .publication-title-link:visited,
+.publication-list .publication-title-link:hover,
+.publication-list .publication-title-link:focus {
+  color: #52adc8;
+  text-decoration: none;
+}

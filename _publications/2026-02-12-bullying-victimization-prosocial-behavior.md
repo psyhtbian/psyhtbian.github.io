@@ -6,7 +6,7 @@ permalink: /publication/2026-02-12-bullying-victimization-prosocial-behavior
 excerpt: "An RI-CLPM study of bullying victimization, prosocial behavior, and self-esteem among Chinese adolescents."
 date: 2026-02-12
 venue: "Journal of Youth and Adolescence"
-paperurl: "https://doi.org/10.1007/s10964-026-02329-6"
+paperurl: "/assets/pdfs/publications/2026-bullying-victimization-prosocial-behavior.pdf"
 citation: "Bian, H., Liang, L., Bian, Y., & Zhao, M. (2026). Reciprocal relationships between bullying victimization and prosocial behavior and the mediating role of self-esteem among Chinese boys and girls: An RI-CLPM study. <i>Journal of Youth and Adolescence, 55</i>(5), 1325-1342. https://doi.org/10.1007/s10964-026-02329-6"
 ---
 
