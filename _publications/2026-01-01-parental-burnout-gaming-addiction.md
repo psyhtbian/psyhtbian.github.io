@@ -3,7 +3,7 @@ title: "养育倦怠与青少年网络游戏成瘾：基本心理需要满足、
 collection: publications
 category: manuscripts
 permalink: /publication/2026-01-01-parental-burnout-gaming-addiction
-excerpt: "A study of parental burnout and adolescents' internet gaming addiction through psychological need satisfaction, effortful control, and gender."
+excerpt: "A study of parental burnout and adolescents' Internet gaming addiction through psychological need satisfaction, effortful control, and gender."
 date: 2026-01-01
 venue: "心理发展与教育"
 paperurl: "/assets/pdfs/publications/2026-parental-burnout-gaming-addiction.pdf"
