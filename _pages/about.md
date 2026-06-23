@@ -27,10 +27,6 @@ Education
 Publications
 ======
 
-{% if site.author.googlescholar %}
-You can also find my articles on [my Google Scholar profile]({{ site.author.googlescholar }}).
-{% endif %}
-
 {% include base_path %}
 
 <ul class="publication-list">
@@ -42,10 +38,3 @@ Recommended citation: {{ post.citation }}{% endif %}</p>
 </li>
 {% endfor %}
 </ul>
-
-Profiles
-======
-
-* [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=4VP6u6EAAAAJ)
-* [ResearchGate](https://www.researchgate.net/profile/Haotian-Bian)
-* [ORCID](https://orcid.org/0000-0002-6105-1931)
