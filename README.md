@@ -1,6 +1,6 @@
-# Haotian Bian Academic Homepage
+# Haotian Bian (边昊天) Academic Homepage
 
-This repository hosts Haotian Bian's academic homepage at:
+This repository hosts Haotian Bian (边昊天)'s academic homepage at:
 
 https://psyhtbian.github.io
 
