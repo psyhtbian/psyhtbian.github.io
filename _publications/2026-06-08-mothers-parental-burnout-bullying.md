@@ -7,7 +7,7 @@ excerpt: "A longitudinal study on maternal parental burnout, psychological contr
 date: 2026-06-08
 venue: "Journal of Youth and Adolescence"
 paperurl: "/assets/pdfs/publications/2026-mothers-parental-burnout-bullying.pdf"
-citation: "Bian, H., Pu, Q., He, Y., Zhang, Y., & Chen, F. (2026). How does mothers' parental burnout longitudinally predict adolescent bullying perpetration and victimization? The mediating role of psychological control rather than autonomy support. <i>Journal of Youth and Adolescence</i>. https://doi.org/10.1007/s10964-026-02371-4"
+citation: "Bian, H., Pu, Q., He, Y., Zhang, Y., & Chen, F. (2026). How does mothers' parental burnout longitudinally predict adolescent bullying perpetration and victimization? The mediating role of psychological control rather than autonomy support. <i>Journal of Youth and Adolescence</i>, <i>55</i>(8), 2096–2112. https://doi.org/10.1007/s10964-026-02371-4"
 ---
 
 This article examines longitudinal links between mothers' parental burnout and adolescent bullying involvement, with attention to psychological control and autonomy support.
