@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Haotian Bian"
+title                    : "Academic Homepage"
 title_separator          : "-"
 name                     : &name "Haotian Bian"
 description              : &description "Ph.D. student in psychology at Beijing Normal University, studying parenting, family dynamics, and adolescent mental health."
