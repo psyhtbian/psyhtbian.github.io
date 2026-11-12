@@ -60,7 +60,7 @@
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
       {% endif %}
       {% if author.openalex %}
-        <li><a href="{{ author.openalex }}"><img src="{{ '/images/openalex-icon.png' | relative_url }}" class="author-openalex-icon icon-pad-right" alt="">OpenAlex</a></li>
+        <li><a href="{{ author.openalex }}"><span class="author-openalex-icon icon-pad-right" aria-hidden="true"></span>OpenAlex</a></li>
       {% endif %}
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
