@@ -199,7 +199,7 @@ body:hover .visually-hidden button {
   height: 1.1em;
   background-image: url("/images/openalex-icon.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: calc(50% - 0.45em) center;
   background-size: 0.8em 0.8em;
   vertical-align: middle;
 }
