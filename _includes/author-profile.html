@@ -53,6 +53,9 @@
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw icon-pad-right"></i>Impactstory</a></li>
       {% endif %}
+      {% if author.openalex %}
+        <li><a href="{{ author.openalex }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>OpenAlex</a></li>
+      {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed ai-fw icon-pad-right"></i>PubMed</a></li>
       {% endif %}                        

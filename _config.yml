@@ -38,6 +38,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=4VP6u6EAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
+  openalex         : "https://openalex.org/A5125696276"
   orcid            : "https://orcid.org/0000-0002-6105-1931"
   semantic         : # URL
   ssrn             : # URL
@@ -154,6 +155,7 @@ social:
     - "https://orcid.org/0000-0002-6105-1931"
     - "https://scholar.google.com/citations?hl=zh-CN&user=4VP6u6EAAAAJ"
     - "https://www.researchgate.net/profile/Haotian-Bian"
+    - "https://openalex.org/A5125696276"
 
 
 # Analytics
