@@ -8,7 +8,7 @@ excerpt: "A study on parental burnout, family cohesion, parent-child relationshi
 date: 2025-04-02
 venue: "Current Psychology"
 paperurl: "/assets/pdfs/publications/2025-parental-burnout-family-cohesion.pdf"
-citation: "<strong><u>Bian, H.</u></strong>, Bian, Y., & Liang, L. (2025). The impact of parental burnout on family cohesion: The mediating roles of parent-child relationships and parental differences. <i>Current Psychology</i>, <i>44</i>(10), 9435–9445. https://doi.org/10.1007/s12144-025-07729-8"
+citation: "<strong>Bian, H.</strong>, Bian, Y., & Liang, L. (2025). The impact of parental burnout on family cohesion: The mediating roles of parent-child relationships and parental differences. <i>Current Psychology</i>, <i>44</i>(10), 9435–9445. https://doi.org/10.1007/s12144-025-07729-8"
 ---
 
 This article examines how parental burnout relates to family cohesion through parent-child relationships and parental differences.
