@@ -2,6 +2,7 @@
 title: "如何提升中小学校家庭教育指导服务的有效性?——基于对全国9省(自治区、直辖市)113县的调研分析"
 collection: publications
 category: manuscripts
+author_position: coauthored
 permalink: /publication/2022-12-01-family-education-guidance-effectiveness
 date: 2022-12-01
 venue: "中国教育学刊"

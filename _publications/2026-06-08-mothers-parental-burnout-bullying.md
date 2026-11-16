@@ -2,6 +2,7 @@
 title: "How Does Mothers' Parental Burnout Longitudinally Predict Adolescent Bullying Perpetration and Victimization? The Mediating Role of Psychological Control Rather than Autonomy Support"
 collection: publications
 category: manuscripts
+author_position: first
 permalink: /publication/2026-06-08-mothers-parental-burnout-bullying
 excerpt: "A longitudinal study on maternal parental burnout, psychological control, autonomy support, and adolescent bullying."
 date: 2026-06-08

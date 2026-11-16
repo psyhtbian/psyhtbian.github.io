@@ -2,6 +2,7 @@
 title: "我国家庭教育指导服务督导评估的现状、关键问题和实施建议"
 collection: publications
 category: manuscripts
+author_position: coauthored
 permalink: /publication/2022-05-01-family-education-supervision-evaluation
 excerpt: "A study on supervision and evaluation of family education guidance services in China."
 date: 2022-05-01

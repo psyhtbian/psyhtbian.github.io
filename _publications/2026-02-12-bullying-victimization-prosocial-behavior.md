@@ -2,6 +2,7 @@
 title: "Reciprocal Relationships between Bullying Victimization and Prosocial Behavior and the Mediating Role of Self-Esteem among Chinese Boys and Girls: An RI-CLPM Study"
 collection: publications
 category: manuscripts
+author_position: first
 permalink: /publication/2026-02-12-bullying-victimization-prosocial-behavior
 excerpt: "An RI-CLPM study of bullying victimization, prosocial behavior, and self-esteem among Chinese adolescents."
 date: 2026-02-12

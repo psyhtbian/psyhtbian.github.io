@@ -2,6 +2,7 @@
 title: "The Impact of Parental Burnout on Family Cohesion: The Mediating Roles of Parent-Child Relationships and Parental Differences"
 collection: publications
 category: manuscripts
+author_position: first
 permalink: /publication/2025-04-02-parental-burnout-family-cohesion
 excerpt: "A study on parental burnout, family cohesion, parent-child relationships, and parental differences."
 date: 2025-04-02

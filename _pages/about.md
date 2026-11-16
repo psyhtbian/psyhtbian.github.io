@@ -24,13 +24,29 @@ Research Interests
 * Adolescent mental health
 * Longitudinal method
 
-Publications
+First-author Publications
 ======
 
 {% include base_path %}
 
 <ul class="publication-list">
-{% for post in site.publications reversed %}
+{% assign first_author_publications = site.publications | where: "author_position", "first" | sort: "date" | reverse %}
+{% for post in first_author_publications %}
+<li>
+<p>{% if post.paperurl %}<a class="publication-title-link" href="{{ post.paperurl | prepend: base_path }}"><strong>{{ post.title }}</strong></a>{% else %}<strong>{{ post.title }}</strong>{% endif %}<br />
+Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.citation %}<br />
+Recommended citation: {{ post.citation }}{% endif %}{% if post.citation_chinese %}<br />
+Recommended citation in Chinese: {{ post.citation_chinese }}{% endif %}</p>
+</li>
+{% endfor %}
+</ul>
+
+Co-authored Publications
+======
+
+<ul class="publication-list">
+{% assign coauthored_publications = site.publications | where: "author_position", "coauthored" | sort: "date" | reverse %}
+{% for post in coauthored_publications %}
 <li>
 <p>{% if post.paperurl %}<a class="publication-title-link" href="{{ post.paperurl | prepend: base_path }}"><strong>{{ post.title }}</strong></a>{% else %}<strong>{{ post.title }}</strong>{% endif %}<br />
 Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.citation %}<br />

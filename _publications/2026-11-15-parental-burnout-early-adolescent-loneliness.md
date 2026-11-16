@@ -2,6 +2,7 @@
 title: "父母养育倦怠和早期青少年孤独感的双向关系：基于亲子性别组合的分析"
 collection: publications
 category: manuscripts
+author_position: first
 permalink: /publication/2026-11-15-parental-burnout-early-adolescent-loneliness
 excerpt: "A longitudinal study of reciprocal relationships between parental burnout and early adolescent loneliness across parent-adolescent gender dyads."
 date: 2026-11-15
