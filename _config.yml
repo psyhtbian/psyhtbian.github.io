@@ -44,7 +44,8 @@ author:
   ssrn             : # URL
   pubmed           :
   researchgate     : "https://www.researchgate.net/profile/Haotian-Bian"
-  scopus           : # URL
+  webofscience     : "https://www.webofscience.com/wos/author/record/OPO-2294-2025"
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=59719951400"
   zotero           : # URL
 
 
@@ -155,6 +156,8 @@ social:
     - "https://orcid.org/0000-0002-6105-1931"
     - "https://scholar.google.com/citations?hl=zh-CN&user=4VP6u6EAAAAJ"
     - "https://www.researchgate.net/profile/Haotian-Bian"
+    - "https://www.webofscience.com/wos/author/record/OPO-2294-2025"
+    - "https://www.scopus.com/authid/detail.uri?authorId=59719951400"
     - "https://openalex.org/A5125696276"
 
 

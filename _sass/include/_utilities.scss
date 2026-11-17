@@ -211,6 +211,36 @@ body:hover .visually-hidden button {
   background: url("/images/openalex-icon.png") center / contain no-repeat;
 }
 
+.author-webofscience-icon,
+.author-scopus-icon {
+  display: inline-block;
+  width: 1.25em;
+  height: 1.1em;
+  position: relative;
+  vertical-align: middle;
+}
+
+.author-webofscience-icon::before,
+.author-scopus-icon::before {
+  content: "";
+  position: absolute;
+  left: 0.05em;
+  top: 0.15em;
+  width: 0.8em;
+  height: 0.8em;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.author-webofscience-icon::before {
+  background-image: url("/images/webofscience-icon.png");
+}
+
+.author-scopus-icon::before {
+  background-image: url("/images/scopus-icon.png");
+}
+
 /* social icons*/
 
 .social-icons {
