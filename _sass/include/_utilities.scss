@@ -235,10 +235,15 @@ body:hover .visually-hidden button {
 
 .author-webofscience-icon::before {
   background-image: url("/images/webofscience-icon.png");
+  width: 0.9em;
+  height: 0.9em;
 }
 
 .author-scopus-icon::before {
   background-image: url("/images/scopus-icon.png");
+  width: 1.1em;
+  height: 1.1em;
+  top: 0;
 }
 
 /* social icons*/

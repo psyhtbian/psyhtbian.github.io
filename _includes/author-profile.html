@@ -44,8 +44,11 @@
       {% if author.arxiv %}
         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
       {% endif %}      
+      {% if author.webofscience %}
+        <li><a href="{{ author.webofscience }}"><span class="author-webofscience-icon icon-pad-right" aria-hidden="true"></span>WebofScience</a></li>
+      {% endif %}
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
+        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>GoogleScholar</a></li>
       {% endif %}
       {% if author.inspire-hep %}
         <li><a href="{{ author.inspire-hep }}"><i class="ai ai-inspire ai-fw icon-pad-right"></i>INSPIRE-HEP</a></li>
@@ -59,14 +62,11 @@
       {% if author.researchgate %}
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
       {% endif %}
-      {% if author.webofscience %}
-        <li><a href="{{ author.webofscience }}"><span class="author-webofscience-icon icon-pad-right" aria-hidden="true"></span>Web of Science</a></li>
+      {% if author.openalex %}
+        <li><a href="{{ author.openalex }}"><span class="author-openalex-icon icon-pad-right" aria-hidden="true"></span>OpenAlex</a></li>
       {% endif %}
       {% if author.scopus %}
         <li><a href="{{ author.scopus }}"><span class="author-scopus-icon icon-pad-right" aria-hidden="true"></span>Scopus</a></li>
-      {% endif %}
-      {% if author.openalex %}
-        <li><a href="{{ author.openalex }}"><span class="author-openalex-icon icon-pad-right" aria-hidden="true"></span>OpenAlex</a></li>
       {% endif %}
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
