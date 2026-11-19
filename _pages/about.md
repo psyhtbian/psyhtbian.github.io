@@ -14,8 +14,8 @@ Education
 ======
 
 * Ph.D. Student, Collaborative Innovation Center of Assessment for Basic Education Quality, Beijing Normal University, 2025-2028
-* M.A., Collaborative Innovation Center of Assessment for Basic Education Quality, Beijing Normal University, 2021-2024
-* B.S., Department of Psychology, Northwest Normal University, 2017-2021
+* Master of Education, Collaborative Innovation Center of Assessment for Basic Education Quality, Beijing Normal University, 2021-2024
+* Bachelor of Science, School of Psychology, Northwest Normal University, 2017-2021
 
 Research Interests
 ======
